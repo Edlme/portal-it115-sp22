@@ -3,9 +3,10 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 html {
-    background-color: lightgray;
-    font-family: 'Quicksand', sans-serif;
-    font-size: 0.95em;
+    background-color: #b2ede9db;
+    /*font-family: 'Quicksand', sans-serif;*/
+    font-family:Roboto Slab;
+    font-size: 1.30em;
     line-height: 1.5em;
 }
 
@@ -17,12 +18,21 @@ html {
 h1 {
     font-weight: normal;
     margin: auto;
-    background: #fff;
+    background: #0e0e0ef2;
     line-height: 2.5em;
 }
 
+h1.logo {
+    font-family: Gira sans-serif;
+    font-size: 100px;
+    text-align : center;
+    text-shadow: 4px 4px 4px #9800ff;
+    color: #ff0;
+   
+
+}
 main.wrapper {
-    background-color: white;
+    background-color: #c1a7a7;
     overflow: auto;
 }
 
